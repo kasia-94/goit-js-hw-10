@@ -18,3 +18,41 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.country-list__item {
+  display: flex;
+}
+
+img {
+  display: block;
+  width: 35px;
+}
+
+h1 {
+  margin: 5px;
+  font-size: 20px;
+  font-style: normal;
+}
+
+h2 {
+  margin: 5px;
+  font-size: 35px;
+  font-style: normal;
+}
+
+span {
+  font-weight: 700;
+}
+
+.country-image {
+  display: flex;
+}
+
+.country-card {
+  font-size: 25px;
+}
